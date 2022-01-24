@@ -3,3 +3,6 @@ tests:
 
 migrate:
 	docker-compose run --rm app sh -c "python manage.py makemigrations"
+
+run:
+	docker-compose up
